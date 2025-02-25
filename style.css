@@ -1,5 +1,23 @@
-body {background-color: ghostwhite}
-h1 {font-size: 300%}
-h1,h3 {color: #191970; text-align: center;}
-h2,h4 {color: darkslategray; text-align: center;}
-#para1 {text-align: center; color: purple; font-style: italic;}
+body {
+	background-color: ghostwhite;
+}
+
+h1 {
+	font-size: 300%
+}
+
+h1,h3 {
+	color: #191970; 
+	text-align: center;
+}
+
+h2,h4 {
+	color: darkslategray; 
+	text-align: center;
+}
+
+#para1 {
+	text-align: center; 
+	color: purple; 
+	font-style: italic;
+}
