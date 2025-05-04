@@ -8,21 +8,99 @@
 	<link rel="stylesheet" href="styles.css"></link>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display">
 </head>
+
 <body>
 	<div class="container">
 		<header>
-			<h1 class="label">THE PROCESS</h1>
+			<h1 class="label">THE BASICS</h1>
 		</header>
 
 		<nav class="topnav">
 			<ul class="nav-links">
 				<li><a href="./index.html">Home</a></li>
 				<li><a href="./about.html">About</a></li>
+				<li><a href="./services.html">Walkthrough</a></li>
 				<li><a href="./resources.html">Resources</a></li>
-				<li><a href="./services.html">Documentation</a></li>
-				<li><a href="./contact.html">Contact</a></li>
+				<li><a href="./competitions.html">Competitions</a></li>
 			</ul>
 		</nav>
+		
+		<section class="index-content">
+			<div class="index-box">
+				<h2>Linux Fundamentals</h2>
+				<p>
+				As far as the Linux fundamentals go, it's important to understand how to move around the Linux directory, as it'll allow you
+				to go where you want. Understanding key commands like <code>cd</code>, <code>ls</code>, and <code>pwd</code> are just the basics
+				for moving yourself, checking directories, and printing your location. These commands are just the very beginning, as well. Other
+				key commands include <code>cat</code>, <code>nano</code>, and <code>sudo</code>. These commands allow you to read and write to files,
+				as well as utilize administrator privileges. It's important to keep in mind the general directory structure of Linux as well, and to
+				learn about the locations of system binaries. There's way more to cover with Linux, but I'll leave the most in-depth information within
+				the documentation.
+				</p>
+				<br></br>
+				<hr></hr>
+			</div>
+			
+			<div class="index-box">
+				<h2>Networking Concepts</h2>
+				<p>
+				To best understand the network architecture there are a few core concepts to understand about networks. One of the most major things to
+				know is how IP addresses work; it's important to understand private addresses versus public addresses, subnetting, and static configurations
+				versus Dynamic Host Configuration Protocol (DHCP). It's additionally important to learn the way that devices communicate; there are plenty of
+				different protocols including: ICMP, TCP and UDP. This leads us into the criticality of knowing the OSI model, the aformentioned protocols are
+				all Layer 3 or Transport Layer protocols, while there are also common Layer 7 or Application Layer protocols that are commonly known. These
+				would include things like HTTP, SSH, FTP, etc. Understanding how devices utilize these different protocols and how they operate is significant
+				to your success as a Blue Team member.
+				</p>
+				<br></br>
+				<hr></hr>
+			</div>
+			
+			<div class="index-box">
+				<h2>Security Best Practices</h2>
+				<p>
+				It's important to keep in mind security best practices when participating in these competitions. The Red Team will constantly target
+				your systems, aiming for the lowest hanging fruit first. There are core security concepts to always keep in mind when defending systems;
+				they might seem obvious, but they're extremely important to remember. First of all, change ALL default passwords--no exceptions. Another
+				key concept to keep in mind is to check for established connections--Red Team might already be on the system trying to mess with your
+				configurations! The final thing to keep in mind is to make backups of all important files--it's not a matter of if things will break, it's
+				a matter of when.
+				</p>
+				<br></br>
+				<hr></hr>
+			</div>
+			
+			<div class="index-box">
+				<h2>Technical Writing</h2>
+				<p>
+				This is a section that is often labeled as "Injects" during competitions. The organizers will provide the competitors with challenges that
+				involve more documentation and technical writing skills to complete. These challenges can vary, but include some consistent choices such as
+				recreating the network topology, writing a formal letter and executive summary to a C-suite member, implementing a new technology or service
+				and then documenting it, and many other options that are more sporadically chosen. It helps to understand how to reduce technical jargon,
+				keep your reports concise, focus on a bottom-line-up-front (BLUF) approach, and to address everyone in the most formal way possible.
+				</p>
+				<br></br>
+				<hr></hr>
+			</div>
+			
+			<div class="index-box">
+				<h2>Threat Hunting</h2>
+				<p>
+				This is essentially the side of this whole main course. Some competitions will allow for incident response reports, which include pointing out
+				and explaining all of the Red Team misconfigurations and malicious activity that was discovered during the course of the competition. While this
+				is still important, this is often the last thing you will do and requires all of the other steps to be covered in a well-organized manner. If your
+				basic network defenses aren't setup and you don't have people keeping up with the injects schedule, then your attention should not be directed here.
+				If given the opportunity, threat hunting can be really effective if you can stay ahead of Red Team's malicious deployments; there may be malware on
+				a machine, but Red Team can't run everything right away--so if you get rid of it before they can activate it, you'll typically be in a good spot.
+				</p>
+			</div>
+		</section>
+		
+		<div class="footer-box">
+			<footer>
+			  <p>CYBR 201 - Web Technologies Essentials&trade;</p>
+			</footer> 
+		</div>
 	</div>
 </body>
 </html>

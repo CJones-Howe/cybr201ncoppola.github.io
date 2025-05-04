@@ -17,6 +17,21 @@ header {
 	padding: 15px
 }
 
+table {
+	border: 0.1rem solid darkblue;
+	border-collapse: collapse;
+	width: 80%;
+	padding: 10px 0px;
+}
+
+th, td {
+	border: 0.1rem solid darkblue;
+	border-collapse: collapse;
+	background-color: ghostwhite;
+	padding: 25px 5px;
+	width: 33.33%
+}
+
 h1.label {
 	font-weight: bold;
 	text-align: left;
@@ -31,72 +46,52 @@ h1.label {
 	list-style: none;
 	align-items: center;
 	justify-content: center;
-	height: 100%;
-	width: 80%;
-	margin: auto;
 }
 
-/* .nav-links li { */
-	/* display: inline-block; */
-	/* padding: 5px 50px; */
-	/* margin: 8px 0px; */
-/* } */
+.nav-links li {
+	display: inline-block;
+	padding: 5px 0;
+	margin: 8px 0;
+}
 
-/* .nav-links a { */
-	/* color: ghostwhite; */
-	/* text-decoration: none; */
-	/* padding: 12px 50px; */
-	/* font-weight: bold; */
-	/* font-size: 20px; */
-/* } */
+.nav-links a {
+	color: ghostwhite;
+	text-decoration: none;
+	padding: 12px 50px;
+	font-weight: bold;
+	font-size: 20px;
+}
 
 .nav-links a:hover {
 	background-color: #000039;
-	text-decoration: underline;
+	/* text-decoration: underline; */
+}
+
+.container {
+	height: 100%;
 }
 
 .content {
 	display: flex;
+	padding: 20px 0px;
+	background-color: lightsteelblue;
 	width: 100vw;
 	max-width: 100%;
-	height: 100vh;
+	/* height: 100vh; */
 	max-height: 100%;
 	justify-content: center;
-	background-color: lightsteelblue;
 }
 
 .index-content {
 	display: flex;
-	padding: 20px;
+	padding: 20px 0px;
 	background-color: lightsteelblue;
 	width: 100vw;
 	max-width: 100%;
-	justify-content: center;
-	flex-direction: column;
-}
-
-.box {
-	padding: 25px;
-	background-color: ghostwhite;
-	width: 400px;
-	/* height: 100px; */
-	text-align: center;
-}
-
-.box2 {
-	padding: 25px;
-	background-color: #efeff9;
-	width: 400px;
-	/* height: 100px; */
-	text-align: center;
-}
-
-.box3 {
-	padding: 25px;
-	background-color: ghostwhite;
-	width: 400px;
-	/* height: 100px; */
-	text-align: center;
+	/* height: 100vh; */
+	/* max-height: 150%; */
+	flex-wrap: wrap;
+	/* justify-content: center; */
 }
 
 .index-content div {
@@ -105,8 +100,177 @@ h1.label {
 	width: 100%;
 }
 
+.resources-content {
+	display: flex;
+	background-color: lightsteelblue;
+	width: 100vw;
+	max-width: 100%;
+	/* height: 100vh; */
+	max-height: 100%;
+	justify-content: center;
+}
+
+.box {
+	padding: 25px;
+	background-color: ghostwhite;
+	width: 400px;
+	max-width: 80%;
+	/* height: 100px; */
+	text-align: center;
+	outline-style: solid;
+	outline-width: 0.1em;
+	outline-color: darkblue;
+}
+
 .box-link {
 	text-decoration: bold;
+}
+
+.index-box {
+	padding: 25px;
+	background-color: ghostwhite;
+	width: 400px;
+	max-width: 80%;
+	/* height: 100px; */
+	text-align: left;
+}
+
+.index-box h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.index-box p {
+	font-size: 1.1rem;
+}
+
+.index-box hr {
+	color: ;
+}
+
+.walkthrough-box {
+	padding: 25px;
+	background-color: ghostwhite;
+	width: 400px;
+	max-width: 80%;
+	height: 60vh;
+	outline-style: solid;
+	outline-width: 0.1em;
+	outline-color: darkblue;
+}
+
+.walkthrough-box h2 {
+	text-align: center;
+	margin-bottom: 1.1rem;
+}
+
+.walkthrough-box h3 {
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+}
+
+.walkthrough-box ul {
+	text-align: left;
+}
+
+.walkthrough-box ul li {
+	margin-bottom: 0.875rem;
+	font-weight: 600;
+	color: #222222;
+}
+
+.competitions-content {
+	display: flex;
+	padding: 20px 0px;
+	background-color: lightsteelblue;
+	width: 100vw;
+	max-width: 100%;
+	/* height: 75vh; */
+	/* max-height: 250%; */
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.competitions-content div {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.competitions-box {
+	padding: 25px;
+	background-color: ghostwhite;
+	width: 400px;
+	max-width: 80%;
+	/* flex-wrap: wrap; */
+	justify-content: space-around;
+}
+
+.competitions-box div {
+	padding: 25px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	background-color: lightsteelblue;
+	max-width: 30%;
+	flex-wrap: wrap;
+	border-radius: 10px;
+	display: block;
+}
+
+.competitions-box img {
+	max-width: 40%;
+	max-height: 40%
+}
+
+.image-box {
+	margin-top: 25px;
+	padding: 10px;
+	background-color: ghostwhite;
+	width: 100px;
+	max-width: 20%;
+	border-radius: 25px;
+}
+
+.logo {
+	border-radius: 50%;
+}
+
+.button {
+	border: none;
+	border-radius: 10px;
+	color: ghostwhite;
+	background-color: darkblue;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #000039;
+}
+
+footer {
+	font-size: 0.75em;
+}
+
+.footer-box {
+	padding: 5px 0px;
+	background-color: ghostwhite;
+	width: 100vw;
+	max-width: 100%;
+	text-align: center;
+}
+
+#tableContainer {
+    display: flex;
+    justify-content: center;
+	width: 100%;
+    margin-top: 1rem;
 }
 
 /* Mobile Design */

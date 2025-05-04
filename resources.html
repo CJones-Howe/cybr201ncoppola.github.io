@@ -1,4 +1,4 @@
-<!-- Week 07 Lab -->
+<!-- Resources Page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +7,9 @@
 	<title>Resources - Blue Teaming</title>
 	<link rel="stylesheet" href="styles.css"></link>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display">
+	<script src="myscript.js" defer></script>
 </head>
+
 <body>
 	<div class="container">
 		<header>
@@ -18,53 +20,60 @@
 			<ul class="nav-links">
 				<li><a href="./index.html">Home</a></li>
 				<li><a href="./about.html">About</a></li>
+				<li><a href="./services.html">Walkthrough</a></li>
 				<li><a href="./resources.html">Resources</a></li>
-				<li><a href="./services.html">Documentation</a></li>
-				<li><a href="./contact.html">Contact</a></li>
+				<li><a href="./competitions.html">Competitions</a></li>
 			</ul>
 		</nav>
-	</div>
-
-	<section class="content">
-		<div class="box">
-			<a href="https://ubuntu.com/" class="box-link">Ubuntu</a>
-		</div>
-			
-		<div class="box2">
-			<a href="https://www.virtualbox.org/" class="box-link">VirtualBox</a>
-		</div>
-			
-		<div class="box3">
-			<a href="https://www.geeksforgeeks.org/linux-commands-cheat-sheet/" class="box-link">Linux Commands Cheat Sheet</a>
-		</div>
-	</section>
 		
-	<section class="content">
-		<div class="box">
-			<a href="https://www.youtube.com/watch?v=JxwEVsfMXjk&list=PLHZvOZy0tYQvQ5l7ppnpQqeoGzKPgdi6t" class="box-link">NCL Tutorials</a>
+		<section class="content">
+			<h2>Test Your Skills</h2>
+		</section>
+
+		<section class="resources-content">
+			<table>
+				<tr>
+					<th colspan="3">Verified Resources & Hands-On Practice</th>
+				</tr>
+				<tr>
+					<td><a href="https://ubuntu.com/" class="box-link">Ubuntu</a></td>
+					<td><a href="https://www.virtualbox.org/" class="box-link">VirtualBox</a></td>
+					<td><a href="https://www.geeksforgeeks.org/linux-commands-cheat-sheet/" class="box-link">Linux Commands Cheat Sheet</td>
+				</tr>
+				<tr>
+					<td><a href="https://www.youtube.com/watch?v=JxwEVsfMXjk&list=PLHZvOZy0tYQvQ5l7ppnpQqeoGzKPgdi6t" class="box-link">NCL Tutorials</a></td>
+					<td><a href="https://overthewire.org/wargames/" class="box-link">OverTheWire</a></td>
+					<td><a href="https://www.youtube.com/playlist?list=PLqux0fXsj7x3WYm6ZWuJnGC1rXQZ1018M" class="box-link">NCAE Guides</a></td>
+				</tr>
+				<tr>
+					<td><a href="https://tryhackme.com/" class="box-link">TryHackMe</a></td>
+					<td><a href="https://www.hackthebox.com/" class="box-link">Hack The Box</a></td>
+					<td><a href="https://www.root-me.org/?lang=en" class="box-link">Root Me</a></td>
+				</tr>
+			</table>
+		</section>
+		
+		<section class="content"></section>
+		
+		<section class="resources-content">
+			<h2>Educational Guides</h2>
+		</section>
+		
+		<section class="resources-content">
+			<button class="button" id="runScriptButton">Click to View Documents</button>
+		</section>
+		
+		<section class="resources-content">
+			<div id="tableContainer"></div>
+		</section>
+		
+		<section class="content"></section>
+		
+		<div class="footer-box">
+			<footer>
+			  <p>CYBR 201 - Web Technologies Essentials&trade;</p>
+			</footer> 
 		</div>
-			
-		<div class="box2">
-			<a href="https://overthewire.org/wargames/" class="box-link">OverTheWire</a>
-		</div>
-			
-		<div class="box3">
-			<a href="https://www.youtube.com/playlist?list=PLqux0fXsj7x3WYm6ZWuJnGC1rXQZ1018M" class="box-link">NCAE Guides</a>
-		</div>
-	</section>
-	
-	<section class="content">
-		<div class="box">
-			<a href="https://tryhackme.com/" class="box-link">TryHackMe</a>
-		</div>
-			
-		<div class="box2">
-			<a href="https://www.hackthebox.com/" class="box-link">Hack The Box</a>
-		</div>
-			
-		<div class="box3">
-			<a href="https://www.root-me.org/?lang=en" class="box-link">Root Me</a>
-		</div>
-	</section>
+	</div>
 </body>
 </html>
